@@ -1,0 +1,35 @@
+name: music_player_app
+description: A simple music player app in Flutter.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^3.0.0
+  provider: ^6.0.5
+  music: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/song1.mp3
+    - assets/song2.mp3
+    - assets/song3.mp3
+    - assets/song4.mp3
+    - assets/song5.mp3
+    - assets/song6.mp3
+    - assets/song7.mp3
+    - assets/song8.mp3
+    - assets/song9.mp3
+    - assets/song10.mp3
